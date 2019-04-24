@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#playerUmBox, #playerDoisBox {
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 5px 14px;
+}
+#newGame {
+  margin: 10px 0 10px 10px;
+  cursor: pointer;
+  padding: 5px 72px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: lightgray;
+  overline: 0;
+}
+#newGame:hover {
+  background-color: gray;
+  outline: none;
+}
+#newGame:focus {
+  outline:0;
+}
+#geralContainer {
+  margin: 0 0 0 10px;
+  /* border: 1px solid black; */
+  width: 230px;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #efeded;
+  display: inline-block;
+  cursor: pointer;
+}
