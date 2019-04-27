@@ -49,9 +49,14 @@ function showImg(val){
   // Para quando o player fizer a segunda tentativa
   if(tentativas == 2){
   	// Caso as cores sejam diferentes
+      document.getElementById("img2").style.backgroundColor = 'red';
+          for (var i = 0; i < 2000000000; i++) {
+            console.log(i);
+      }
+      document.getElementById("img2").style.backgroundColor = '#efeded';
+      console.log("ta rapido")
     if(valArray[0] != valArray[1]){
       // Função para mostrar a segunda opção e atrasar um pouco (não funciona)
-
       // Função pra apagar tudo
       console.log(valValores[1]);
       console.log(registroSequencia[val]);
